@@ -1,0 +1,15 @@
+-- begin_signature
+-- single_port_ram_with_init
+-- end_signature
+WIDTH=8;
+DEPTH=4;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	3 :	11111111;
+	2 :	11111111;
+	1 :	11111111;
+	0 :	11111111;
+END;
